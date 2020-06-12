@@ -1,0 +1,23 @@
+ #include<stdio.h>
+ #include<stdbool.h>
+ main(){
+ 	int marks;
+ 	printf("Enter your marks");
+ 	scanf("%d",&marks);
+ 	if (marks>=84){
+ 		printf("your garde is A");
+	 }
+	 else if((marks>=70) &&(marks <85) ){
+	 	printf("Your grade is B");
+	 }
+	 else if((marks>=55)&& (marks <70)){
+	 	printf("your grade is C");
+	 }
+	 else if((marks>=40)&& (marks<55)){
+	 	printf("Your grade is D");
+	 	
+	 }
+	 else
+	 printf("your grade id F");
+	 return 0;
+ }
